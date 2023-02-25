@@ -1,0 +1,107 @@
+/* Hindrar innehållet från att flytta vid scrollbar*/
+html {
+  overflow-y: scroll;
+}
+
+/* Typografi */
+/* Använder klasser för att kunna använda google fonts */
+.font-link-h1 {
+  font-family: 'Oswald';
+  font-weight: bold;
+  color: black;
+  font-size: 48pt;
+  text-transform: uppercase;
+}
+
+.font-link-h2 {
+  font-family: 'Oswald';
+  color: black;
+  font-size: 24pt;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: bold;
+}
+
+.font-link-h3 {
+  font-family: 'Oswald';
+  color: black;
+  font-size: 18pt;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: bold;
+}
+
+.font-link-p-ingress {
+  font-family: 'inter';
+  color: black;
+  font-size: 20pt;
+}
+
+.font-link-p {
+  font-family: 'inter';
+  color: black;
+  font-size: 16pt;
+}
+
+.font-link-a {
+  font-weight: bold;
+  font-family: Courier New;
+  font-size: 16pt;
+  color: black;
+}
+
+.font-link-a:hover {
+  text-decoration: none;
+}
+
+.font-link-a:visited {
+  color: black;
+}
+
+/* ViewLink */
+.ViewLink:hover {
+  transform: scale(1.2);
+  /* zoom vid hover */
+}
+
+/* Bildspel/Bildgalleri */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.indicators {
+  border-radius: 4px;
+  background-color: #2e8336;
+  width: 40px;
+  height: 40px;
+  margin-top: 650px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: grey;
+  margin-bottom: 30px;
+}
+
+/* Quiz-knapp*/
+/* Utseende av quiz-knappen*/
+.quizButton {
+  font-family: 'inter';
+  border-style: none;
+  border-radius: 4px;
+  width: 159px;
+  height: 53px;
+  font-weight: bold;
+  font-size: 16pt;
+  background-color: #2E8336;
+  color: white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+}
+
+.quizButton:hover {
+  background-color: #18531D;
+}

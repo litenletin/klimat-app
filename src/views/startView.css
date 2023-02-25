@@ -1,0 +1,91 @@
+body {
+
+  background-image: url(/src/images/background-texture.jpg);
+  background-image: no-repeat center fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+
+
+  margin-top: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* p {
+    text-align-last: center;
+  } */
+
+.startViewContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.frame {
+  background-color: white;
+  /* position: fixed; */
+  left: 1em;
+  right: 1em;
+  bottom: 1em;
+  top: 6em;
+  border-radius: 30px;
+  /*lagt till*/
+  margin-top: 60px;
+  padding: 10px 0 10px 0;
+  width: 1500px;
+}
+
+.CardParent {
+  margin-top: 45px;
+  /* height: 50% */
+  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 45px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 5em;
+  padding-right: 5em;
+  /*lagt till*/
+  position: relative;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+}
+
+.startBottomContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.startBottomBtn {
+  position: relative;
+  margin-top: 40px;
+}
+
+.quizBubbleContainer {
+  position: absolute;
+  margin-left: 800px;
+}
+
+/* footer{
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.Logo{
+  height: 130px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+} */

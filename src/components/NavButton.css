@@ -1,0 +1,52 @@
+.button-footer {
+
+    width: 100%;
+    margin: 0;
+
+}
+
+
+.navButton {
+    background-color: white;
+    border: 1px solid black;
+    border-right: none;
+    height: 100%;
+    width: 100%;
+    align-items: stretch;
+    font-size: 2vw;
+}
+
+.navButton:last-child {
+    border-right: 1px solid black;
+}
+
+.navButton:hover {
+    border: 2px solid black;
+    margin: -1px;
+    cursor: pointer;
+    font-size: 2.1vw;
+    z-index: 10;
+}
+
+
+h2 {
+    text-align: center;
+    align-self: center;
+    font-size: 1em;
+}
+
+img {
+    align-self: center;
+}
+
+.row1 {
+
+    justify-content: space-evenly;
+    align-content: center;
+    display: flex;
+
+}
+
+.navButton:active {
+    background-color: rgba(255, 255, 255, 0.952);
+}
